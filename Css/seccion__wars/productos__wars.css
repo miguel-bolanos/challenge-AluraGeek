@@ -1,0 +1,9 @@
+.productos__wars{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.productos__wars .producto__wars--producto {
+    margin: 1rem;
+}

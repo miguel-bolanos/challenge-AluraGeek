@@ -1,0 +1,9 @@
+.productos__Consolas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.productos__Consolas .producto__Consolas--producto {
+    margin: 1rem;
+}

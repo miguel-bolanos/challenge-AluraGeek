@@ -1,0 +1,36 @@
+.seccion__hero {
+    margin-top: 2rem;
+    background-image: url(../imagenes/Hero.png);
+    height: 25rem;
+    background-size: 100% 100%;
+    color: white;
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2rem;
+}
+.seccion__hero--contenido{
+    margin-bottom: 3rem;
+    width: 80%;
+}
+.seccion__hero--contenido--titulo{
+    font-size: 3rem;
+}
+
+.seccion__hero--contenido--descripcion{
+    font-weight: 700;
+}
+.seccion__hero--contenido--btn {
+    padding: 1rem;
+    color: white;
+    background:#2A7AE4 ;
+    border: none;
+}
+
+@media only screen and (max-width: 665px) {
+
+    .seccion__hero--contenido--titulo{
+        font-size: 2rem;
+    }
+    
+}

@@ -1,0 +1,9 @@
+.productos__Diversos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.productos__Diversos .producto__Diversos--producto {
+    margin: 1rem;
+}
