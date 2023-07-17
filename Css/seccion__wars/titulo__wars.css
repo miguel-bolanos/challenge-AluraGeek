@@ -3,4 +3,11 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
+    font-family: 'Raleway';
+}
+
+.titulo__wars h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3b3d41;
 }

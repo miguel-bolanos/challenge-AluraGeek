@@ -1,3 +1,6 @@
+.header {
+    margin-top: 2rem;
+}
 .header .header__nav {
     display: flex;
     justify-content:space-around;
@@ -5,25 +8,30 @@
     
 }
 .header__nav--contenedor{
-    border: 1px solid black;
+    border: 1px solid #2A7AE4;
     border-radius: 2rem;
+    background: #aaaeb467;
 }
 
 .header__nav--contenedor input{
     padding: 0.5rem;
     border: none;
     margin-left: 15px;
+    background: rgba(0, 0, 0, 0);
 }
 
 .header__nav--contenedor i{
     font-size: 1.3rem;
     padding: 0.8rem;
+    color: #2A7AE4;
     
 }
 
 .header__nav--button {
     padding: 1rem 2rem;
     background: white;
+    border-color: #2A7AE4;
+    color: #2A7AE4;
 }
 
 @media only screen and (max-width: 665px) {

@@ -1,4 +1,65 @@
 .footer{
     margin-top: 2rem;
-    background: rgb(224, 194, 194);
+    background: #EAF2FD;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+}
+
+.footer__lista {
+    line-height: 2.5rem;
+    list-style: none;
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.footer__form > * {
+    border: none;
+    margin: 0.4rem;
+}   
+
+.footer__form--titulo {
+    font-size: 1rem;
+}
+
+.footer__form--nombre{
+    padding: 1rem;
+}
+.footer__form--mensaje{
+    height: 6rem;
+    padding: 12px;
+}
+
+.footer__form--btn {
+    width: 40%;
+    padding: 1rem;
+    background: #2A7AE4;
+    color: white;
+}
+
+@media only screen and (max-width: 649px) {
+
+    .footer{
+        flex-wrap: wrap;
+        
+    }
+    .footer__logo{
+        order: 1;
+    }
+    .footer__form {
+        width: 60%;
+        order: -1;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+
+    .footer__form {
+        width: 90%;
+        order: -1;
+    }
 }

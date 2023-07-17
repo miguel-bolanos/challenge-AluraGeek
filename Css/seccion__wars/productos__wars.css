@@ -7,3 +7,6 @@
 .productos__wars .producto__wars--producto {
     margin: 1rem;
 }
+#textarea{
+    resize: none;
+}

@@ -13,6 +13,9 @@
     margin-bottom: 3rem;
     width: 80%;
 }
+.seccion__hero--contenido >* {
+    margin: 1rem;
+}
 .seccion__hero--contenido--titulo{
     font-size: 3rem;
 }
