@@ -1,0 +1,16 @@
+{
+    "productos": [
+      {
+        "name": "Harland Lohora",
+        "imageUrl": "imagenes/Skill.png",
+        "price":"6.000",
+        "id": 1
+      },
+      {
+        "name": "Harland Lohora",
+        "imageUrl": "imagenes/Skill.png",
+        "price":"6.000",
+        "id": 2
+      }
+    ]
+  }

@@ -35,63 +35,23 @@
         </nav>
     </header>
     <main>
-        <aside class="seccion__hero">
+        <section class="seccion__hero">
             <div class="seccion__hero--contenido">
                 <h1 class="seccion__hero--contenido--titulo">Febrero Promocional</h1>
                 <p class="seccion__hero--contenido--descripcion">Productos selecionados con 33% de descuento</p>
                 <input class="seccion__hero--contenido--btn" type="Button" value="Ver Consolas">
             </div>
-        </aside>
-        <aside class="seccion__wars">
+        </section>
+        <section class="seccion__wars">
             <div class="titulo__wars">
                 <h1>Star Wars</h1>
                 <a href="#">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-           <div class="productos__wars">
-                <div class="producto__wars--producto">
-                    <figure>
-                        <img src="imagenes/Skill.png" alt="">
-                    </figure>
-                    <h1>Producto XYZ</h1>
-                    <p>$ 60,00</p>
-                    <a href="">ver producto</a>
-                </div>
-                <div class="producto__wars--producto">
-                    <figure>
-                        <img src="imagenes/Skill.png" alt="">
-                    </figure>
-                    <h1>Producto XYZ</h1>
-                    <p>$ 60,00</p>
-                    <a href="">ver producto</a>
-                </div>
-                <div class="producto__wars--producto">
-                    <figure>
-                        <img src="imagenes/Skill.png" alt="">
-                    </figure>
-                    <h1>Producto XYZ</h1>
-                    <p>$ 60,00</p>
-                    <a href="">ver producto</a>
-                </div>
-                <div class="producto__wars--producto">
-                    <figure>
-                        <img src="imagenes/Skill.png" alt="">
-                    </figure>
-                    <h1>Producto XYZ</h1>
-                    <p>$ 60,00</p>
-                    <a href="">ver producto</a>
-                </div>
-                <div class="producto__wars--producto">
-                    <figure>
-                        <img src="imagenes/Skill.png" alt="">
-                    </figure>
-                    <h1>Producto XYZ</h1>
-                    <p>$ 60,00</p>
-                    <a href="">ver producto</a>
-                </div>
+           <div class="productos__wars" data-wars>
            </div>
-        </aside>
+        </section>
 
-        <aside class="seccion__Consolas">
+        <section class="seccion__Consolas">
             <div class="titulo__Consolas">
                 <h1>Consolas</h1>
                 <a href="#">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
@@ -138,9 +98,9 @@
                     <a href="">ver producto</a>
                 </div>
            </div>
-        </aside>
+        </section>
 
-        <aside class="seccion__Diversos">
+        <section class="seccion__Diversos">
             <div class="titulo__Diversos">
                 <h1>Diversos</h1>
                 <a href="#">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
@@ -187,7 +147,7 @@
                     <a href="">ver producto</a>
                 </div>
            </div>
-        </aside>
+        </section>
         <footer class="footer">
             <a href="" class="footer__logo"><img src="imagenes/Logo.png" alt=""></a>
             <ul class="footer__lista">
@@ -208,5 +168,7 @@
             </form>
         </footer>
     </main>
+    <script type="module" src="servicios/productos-servicios.js"></script>
+    <script type="module" src="controllers/producto-controller.js"></script>
 </body>
 </html>
