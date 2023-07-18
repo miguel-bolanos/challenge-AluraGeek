@@ -18,9 +18,9 @@ return card
 const wars = document.querySelector("[data-wars]")
 
 productosServicios.ListaProductos().then(data => {
-    data.forEach(data => {
+    data.forEach(({name,imageUrl,price,id}) => {
 
-        const nuevaLinea = nuevoProducto(data.name,data.imageUrl,data.price,data.id)
+        const nuevaLinea = nuevoProducto(name,imageUrl,price,id)
         wars.appendChild(nuevaLinea)
     });
 }).catch((error) => console.log("ocurrio un error" + error))
