@@ -1,6 +1,6 @@
 .productos__Consolas{
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     flex-wrap: wrap;
 }
 

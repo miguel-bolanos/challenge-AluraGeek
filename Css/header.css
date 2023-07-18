@@ -11,19 +11,25 @@
     border: 1px solid #2A7AE4;
     border-radius: 2rem;
     background: #aaaeb467;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.header__nav--contenedor input{
+
+.header__nav--contenedor .search{
     padding: 0.5rem;
     border: none;
     margin-left: 15px;
     background: rgba(0, 0, 0, 0);
+    width: 80%;
 }
 
 .header__nav--contenedor i{
     font-size: 1.3rem;
     padding: 0.8rem;
     color: #2A7AE4;
+    
     
 }
 
@@ -32,6 +38,10 @@
     background: white;
     border-color: #2A7AE4;
     color: #2A7AE4;
+    cursor: pointer;
+}
+.header__nav--button:hover{
+    background: #e5ecf3;
 }
 
 @media only screen and (max-width: 665px) {

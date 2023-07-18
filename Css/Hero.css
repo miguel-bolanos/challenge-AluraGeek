@@ -28,6 +28,11 @@
     color: white;
     background:#2A7AE4 ;
     border: none;
+    cursor: pointer;
+}
+.seccion__hero--contenido--btn:hover{
+    background: #41566e;
+    
 }
 
 @media only screen and (max-width: 665px) {

@@ -1,6 +1,6 @@
 .productos__Diversos{
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     flex-wrap: wrap;
 }
 
