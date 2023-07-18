@@ -23,7 +23,7 @@ productosServicios.ListaProductos().then(data => {
         const nuevaLinea = nuevoProducto(name,imageUrl,price,id)
         wars.appendChild(nuevaLinea)
     });
-})
+}).catch((error) => console.log("ocurrio un error" + error))
 
 /*
 <div class="producto__Consolas--producto">
