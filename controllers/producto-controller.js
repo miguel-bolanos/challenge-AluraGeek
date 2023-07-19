@@ -6,24 +6,32 @@ const nuevoProducto = (name,imageUrl,price,id) =>{
             <figure>
                 <img src="${imageUrl}" alt="">
             </figure>
-            <h1>${name}</h1>
+            <h1 class="producto__estandar--Titulo" >${name}</h1>
             <p>${price}</p>
-            <a href="">ver producto${id}</a>`
+            <a href="">ver producto</a>`
 card.innerHTML = contenido;
-card.classList.add("producto__wars--producto")
+card.classList.add("producto__estandar--producto")
 card.dataset.id = id
 return card
 }
 
 const wars = document.querySelector("[data-wars]")
+const Consolas = document.querySelector("[data-Consolas]")
+const Diversos = document.querySelector("[data-Diversos]")
 
 productosServicios.ListaProductos().then(data => {
     data.forEach(({name,imageUrl,price,id}) => {
 
-        const nuevaLinea = nuevoProducto(name,imageUrl,price,id)
-        wars.appendChild(nuevaLinea)
+        const nuevaLinea = nuevoProducto(name,imageUrl,price,id);
+        const nuevaLinea2 = nuevoProducto(name,imageUrl,price,id);
+        const nuevaLinea3 = nuevoProducto(name,imageUrl,price,id);
+        wars.appendChild(nuevaLinea);
+        Consolas.appendChild(nuevaLinea2);
+        Diversos.appendChild(nuevaLinea3);
     });
 }).catch((error) => console.log("ocurrio un error" + error))
+
+
 
 /*
 <div class="producto__Consolas--producto">

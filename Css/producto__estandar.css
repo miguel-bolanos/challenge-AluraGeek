@@ -1,0 +1,42 @@
+.producto__estandar--producto {
+    margin: 1rem;
+}
+
+.producto__estandar--producto figure {
+    overflow: hidden;
+    height: 80%;
+}
+.producto__estandar--producto figure img {
+
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition-duration: 0.8s;
+}
+
+.producto__estandar--producto figure img:hover{
+    transform: scale(1.5);
+}
+
+.producto__estandar--producto{
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.producto__estandar--producto p {
+    font-family: "Roboto Mono";
+    
+}
+.producto__estandar--Titulo{
+    font-family: "Bitter";
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.producto__estandar--producto a {
+    text-decoration: none;
+    color: #2A7AE4;
+    font-family: "Bitter";
+    font-weight: bold;
+}
